@@ -1,0 +1,17 @@
+{
+  "name": "@bagisto/mcp",
+  "version": "1.0.0",
+  "description": "Bagisto MCP — a local, extensible MCP server for Bagisto AI agents. Capabilities live in folders under src/; currently: bagisto-api (API documentation search).",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "bagisto-mcp": "src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test src/*/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
